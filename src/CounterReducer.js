@@ -1,5 +1,3 @@
-import counterContext from "./CounterContext"
-
 const counterReducer = (state, action) => {
     switch (action) {
       case 'INCREMENT':
