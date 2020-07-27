@@ -1,6 +1,6 @@
 import React,{useReducer} from 'react'
 import CounterReducer from './CounterReducer';
-import counterReducer from './CounterReducer';
+
 
 export default function Child2() {
     let [state,dispatch]=useReducer(CounterReducer,1);
